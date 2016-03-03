@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!-- -->
+
+<configuration>
+    <BalanceServer>
+        <IP>127.0.0.1</IP>
+    </BalanceServer>
+
+    <IndexServer>
+        <serverName>indexServer1</serverName>
+        <IP>127.0.0.1</IP>
+        <dataPath>/home/lang/workspace/BigWeb/WeiBo.xml</dataPath>
+        <indexTmpPath>/home/lang/workspace/BigWeb/index/</indexTmpPath>
+        <hdfsPath>hdfs://localhost:9000/user/lucene/index/</hdfsPath>
+    </IndexServer>
+
+    <SearchServer>
+        <serverName>searcherServer1</serverName>
+        <IP>124.16.103.3</IP>
+        <indexTmpPath>/home/administrator/workspace/BigWeb/index/</indexTmpPath>
+        <hdfsPath>hdfs://localhost:9000/user/lucene/index/</hdfsPath>
+    </SearchServer>
+
+    <SearchServer>
+        <serverName>searcherServer2</serverName>
+        <IP>127.0.0.1</IP>
+        <indexTmpPath>/home/lang/workspace/BigWeb/index/</indexTmpPath>
+        <hdfsPath>hdfs://localhost:9000/user/lucene/index/</hdfsPath>
+    </SearchServer>
+</configuration>
