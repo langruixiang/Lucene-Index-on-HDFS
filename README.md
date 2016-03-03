@@ -62,12 +62,10 @@ src/SearchServer为搜索服务器源码
 * UpdateIndexThread.java 负责与索引服务器通信
 ###配置文件
 根目录下config.xml为配置文件
-默认配置如下：
-	<?xml version="1.0" encoding="UTF-8"?>
-	<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
-	<!-- -->
-	
+默认配置如下：</br>
+
 	<configuration>
+	
 	    <BalanceServer>
 	        <IP>127.0.0.1</IP>
 	    </BalanceServer>
