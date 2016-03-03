@@ -13,7 +13,7 @@ Lucene是一个开源的全文检索引擎工具包，Lucene介绍请参见[Luce
 ###系统结构
 系统结构如图所示：
 
-![](http://7xo6vj.com1.z0.glb.clouddn.com/16-3-3/85463493.jpg)
+![](https://github.com/langruixiang/Lucene-Index-on-HDFS/blob/master/systemstructure.png)
 
 * 用户：用户的请求首先连接负载均衡服务器，负载均衡服务起返回用户搜索服务器的ip地址，进而用户向搜索服务器发起搜索请求。负载均衡过程对用户透明。</br>
 * 搜索服务器：搜索服务器在接收到索引服务器索引更新的消息后，检查搜索服务器MD5，并将有差异的索引文件更新至本机。</br>
