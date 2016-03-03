@@ -95,14 +95,14 @@ src/SearchServer为搜索服务器源码
 	    </SearchServer>
 	</configuration>
 
-* <BalanceServer>节点配置负载均衡服务器IP地址
-* <IndexServer>配置索引服务器</br>
+* BalanceServer节点配置负载均衡服务器IP地址
+* IndexServer配置索引服务器</br>
   serverName为索引服务器标识符</br>
   IP为索引服务器IP地址</br>
   dataPath为待检索文件根目录</br>
   indexTmpPath为系统临时文件目录</br>
   hdfsPath为HDFS存放倒排索引目录</br>
-* <SearchServer>配置搜索服务器
+* SearchServer配置搜索服务器
   serverName为搜索服务器标识符，不同搜索服务器标识符应不同
   IP当前搜索服务器IP地址
   indexTmpPath系统临时文件目录
